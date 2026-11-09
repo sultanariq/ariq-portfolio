@@ -1,0 +1,2 @@
+Replace this file by placing your own portrait image here and naming it profile.jpg.
+Recommended: JPG, portrait orientation, around 900 x 1200 px.
