@@ -338,3 +338,44 @@
 .photo-frame .photo-placeholder[hidden] {
   display: none !important;
 }
+
+/* MOBILE FIX - BANTU ARIQ */
+@media (max-width: 600px) {
+  .quest-scene-wrap {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .quest-overlay {
+    padding: 12px;
+    box-sizing: border-box;
+  }
+
+  .quest-overlay-card {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 18px 14px;
+    box-sizing: border-box;
+    overflow-y: auto;
+  }
+
+  .quest-overlay-icon {
+    font-size: 32px;
+  }
+
+  .quest-overlay-card h4 {
+    font-size: 23px;
+    line-height: 1.2;
+  }
+
+  .quest-overlay-card p {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .quest-start {
+    font-size: 12px;
+    padding: 12px 18px;
+  }
+}
